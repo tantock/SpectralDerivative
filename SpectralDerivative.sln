@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpectralDerivative", "SpectralDerivative\SpectralDerivative.csproj", "{77B89E3C-DD2D-4E93-A3BE-607B48EA4F28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B89E3C-DD2D-4E93-A3BE-607B48EA4F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B89E3C-DD2D-4E93-A3BE-607B48EA4F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B89E3C-DD2D-4E93-A3BE-607B48EA4F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B89E3C-DD2D-4E93-A3BE-607B48EA4F28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB8900F-6B54-499D-A407-8D5EDAD07467}
+	EndGlobalSection
+EndGlobal

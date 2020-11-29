@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DFT2</name>
+    </assembly>
+    <members>
+        <member name="T:DFT2.FFT">
+            <summary>
+            Based on the COMP 5703: ADVANCED ALGORITHMS, FALL 2016 by Amente Bekele
+            http://people.scs.carleton.ca/~maheshwa/courses/5703COMP/16Fall/FFT_Report.pdf
+            </summary>
+        </member>
+        <member name="M:DFT2.FFT.Compute(System.Numerics.Complex[],System.Boolean,System.Boolean)">
+            <summary>
+            Compute the FFT
+            </summary>
+            <param name="data">Samples</param>
+            <param name="scale">Scaled by 1/N, N = sample size</param>
+            <param name="nyquistBounded">Output from freq 0 inclusive to frequency N/2 inclusive. Scales values by 2.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DFT2.FFT_Utility`1.Shift(`0[],System.Int32)">
+            <summary>
+            Shifts array elements such that negative frequencies preceed the zero-th frequency
+            </summary>
+            <param name="array"></param>
+            <param name="negIndex">Index start of negative frequency</param>
+            <returns></returns>
+        </member>
+        <member name="M:DFT2.IFFT.Compute(System.Numerics.Complex[],System.Boolean,System.Boolean)">
+            <summary>
+            Compute the Inverse FFT
+            </summary>
+            <param name="data">Samples</param>
+            <param name="scaled">FFT output was scaled by 1/N, N = sample size</param>
+            <param name="nyquistBounded">Input ranges from freq 0 inclusive to frequency N/2 inclusive. Halves values by 2.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
